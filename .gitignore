@@ -2,3 +2,6 @@
 install/
 build/
 log/
+
+# IDEs
+.vscode/
