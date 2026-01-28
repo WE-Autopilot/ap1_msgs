@@ -18,6 +18,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/SpeedProfileStamped.msg"
     "msg/TurnAngleStamped.msg"
     "msg/VehicleSpeedStamped.msg"
+    "msg/EntityState.msg"
+    "msg/EntityStateArray.msg"
+    "msg/LaneBoundaries.msg"
     DEPENDENCIES std_msgs geometry_msgs
 )
 
